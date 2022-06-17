@@ -1,34 +1,91 @@
-<p>paragraph 1</p>
-<p>paragraph 2</p>
-<p>pararaph 3 <em>but this paragraph has emphasized text</em></p>
-<p>Now over here we are using i tags which are <i>visual only italics</i></p>
-<p>
-  <strong>This is a strong element</strong> (used to denote importance of text) compared to a <b>bolded element<b> (visual)
-</p>
+
 <h1>HEADLINE</h1>
 <h2>headline2</h2>
 <h3>headline3</h3>
 <h4>headline4</h4>
 <h5>headline5</h5>
 <h6>headline6</h6>
+  <p>paragraph 1: very good very long nice pragraph with text in it and it is oneeee pragraph vey nice very good block of paragraph right here</p>
+  <p>paragraph 2: now this paragraph is different, this is paragraph 2, which you might be able to see based on the pargraph 2 at the beginning of it. wow. incredible.</p>
+  <p>pararaph 3 <em>but this paragraph has emphasized text!!!!!</em> can you believe that we are already on the third paragraph? we have come so far together :,)</p>
+  <p>Now over here we are using i tags which are <i>visual only italics!!!!!!!!!!!</i> this is also paragraph 4 by the way</p>
+  <p>
+    paragraph 5 alpha paragraph: <strong>This is a strong element</strong> (used to denote importance of text) compared to a <b>bolded element</b> (visual)
+  </p>
+
 <h3>Unordered List 'ul':</h3>
   <ul>
     <li>flour</li>
     <li>cookie</li>
     <li>milk</li>
-    <li>egg</li>
+    <li>egg</li> 
   </ul>
+  
 <h3>Ordered List 'ol':</h3>
   <ol>
     <li>go outside</li>
     <li>run around</li>
     <li>cosume protein</li>
   </ol>
-  <h3>definition list</h3>
+  
+<h3>definition list 'dl'</h3>
   <dl>
     <dt> term: soccer</dt>
     <dd>definition: sport:)</dd>
     <dt> term2</dt>
     <dd> definition2 </dd>
-    
   </dl>
+  
+<h3>important quote alert</h3>
+  <blockquote>
+    <p>This is a very important quote that is inside a blockquote tag incredible wow I am crying right now!!!!!!!!!</p>
+    <p> we are now in the second part of the most <q>important quote ever</q> <i>q element</i></p> 
+    <cite>-bob bob using cite tag :,)</cite>  
+  </blockquote>
+
+
+<h3>Time element/html attributes</h3>
+  <p>elementname attributename= ""</p>
+  <time>june 12, 2025</time>
+  <p>using time ^</p>
+  <p><time datetime="2025-05-08">may 8</time></p>
+  <p><time datetime="2025-05-08">may 8, 2025</time></p>
+  <p><time datetime="2025-05-08">8 may 2025</time></p>
+  <p>using time datetime="2025-05-8". theres a lot of ways to denote time and seconds, military time</p>
+  <b><a href="https://lnkd.in/g7eqZhE">TIME INFO LINK</a></b>
+  
+<h3>Code in Text</h3>
+  <p>
+    we can write <code><b>{color:green;}</b></code> in our css, and it will apply to anything marked up as an &lt;h4&gt; element.
+    <b>"& lt;" = &lt;  "& gt;" = &gt;</b> 
+  </P>
+<h1>Text Formatting</h1>
+  <p>
+    we are writing some stuff and since its such a long pragraph we dont need to make a million p tags we can just use <b>br</b><br>
+    and now we have a new line<br>
+    another line<br>
+    another<br>
+    goodbye
+  </p>
+<h3>[USING PRE TO KEEP ALL THE INDENTS AND STUFF :0]</h3>
+  <p>by e.e. cummings</p>
+  <pre>
+  it's
+  spring
+  and 
+      the
+            goat-footed
+  balloonman    whistles
+  far
+  and 
+  wee
+  </pre>
+<h3>SUB AND SUPERSCRIPTS</h3>
+  <p>
+    H<sub>2</sub>O <br>
+    B<sup>EE</sup>G yoshi
+    SM<sub>O</sub>L yoshi<br>
+    MathML good for math notation<br>
+    small: <small>this is very <b>&lt;small&gt;</b> importance text ver smol and shy uwu</small>
+  </p>
+
