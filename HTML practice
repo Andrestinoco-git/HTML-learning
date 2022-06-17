@@ -1,0 +1,34 @@
+<p>paragraph 1</p>
+<p>paragraph 2</p>
+<p>pararaph 3 <em>but this paragraph has emphasized text</em></p>
+<p>Now over here we are using i tags which are <i>visual only italics</i></p>
+<p>
+  <strong>This is a strong element</strong> (used to denote importance of text) compared to a <b>bolded element<b> (visual)
+</p>
+<h1>HEADLINE</h1>
+<h2>headline2</h2>
+<h3>headline3</h3>
+<h4>headline4</h4>
+<h5>headline5</h5>
+<h6>headline6</h6>
+<h3>Unordered List 'ul':</h3>
+  <ul>
+    <li>flour</li>
+    <li>cookie</li>
+    <li>milk</li>
+    <li>egg</li>
+  </ul>
+<h3>Ordered List 'ol':</h3>
+  <ol>
+    <li>go outside</li>
+    <li>run around</li>
+    <li>cosume protein</li>
+  </ol>
+  <h3>definition list</h3>
+  <dl>
+    <dt> term: soccer</dt>
+    <dd>definition: sport:)</dd>
+    <dt> term2</dt>
+    <dd> definition2 </dd>
+    
+  </dl>
