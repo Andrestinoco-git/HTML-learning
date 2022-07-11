@@ -1,0 +1,51 @@
+<h1>Links...</h1>
+<P>absolute url: needs to have https://</P>
+<a href="https://www.are.na">Arena link</a>
+<P>we can use relative urls to like point to other parts of the website relative ot each other rather than starting from the beginning. Also index.html is the automatic file that gets loaded when a folder is selected through the url</P>
+<h1>Menu</h1>
+<P><b>NAV</b> element tells the browser which sets of links are used for navigation, main menu bar and add attrributes to the menu (aria roles) so the browser knows its purpose</P>
+<nav> 
+<ul class="navbar">
+  <li><a href="/">HOME</a></li>
+  <li><a href="/people">PEOPLE</a></li>
+  <li><a href="/prices">PRICES</a></li>
+  <li><a href="/contact">CONTACT</a></li>
+</ul>
+</nav>
+<h3>footer element</h3>
+<footer>
+  <a href="/about/privacy">privacy policy</a>
+  <a href="/about/legal">Terms of service</a>
+</footer>
+<h1>IMAGES</h1>
+<img src="https://cdn.iconscout.com/icon/free/png-256/magic-book-1446956-1222589.png" alt="Open book with magic wand and moon and stars" width="150" height="150">
+
+<p>List a set of image files so that whatever size the resolution it just swaps them out</p>
+<img src="https://cdn.iconscout.com/icon/free/png-256/magic-book-1446956-1222589.png" alt="Open book with magic wand and moon and stars" width="150" height="150"
+
+srcset="https://cdn.iconscout.com/icon/free/png-256/magic-book-1446956-1222589.png 2x, https://cdn.iconscout.com/icon/free/png-256/magic-book-1446956-1222589.png 3x, https://cdn.iconscout.com/icon/free/png-256/magic-book-1446956-1222589.png 4x" 
+sizes= "(max-width:480px) 240px,
+        (max-width:960px) 480px,
+        (max-width:1440px) 960px,
+        1920px">
+<p>The width changes and things, how wide the file is using SIZES so if the width of the screen is at a certain pixel length it changes sizes</p>
+<h3>RESPONSIVE IMAGES</h3>
+<picture>
+  <source media="(min-width:1000px)">
+  <source srcset=https://www.travel-experience-live.com/wp-content/uploads/2015/07/Landscape-seen-from-Mount-Mansfield.jpg>
+  <img src="https://c4.wallpaperflare.com/wallpaper/292/446/516/ultra-wide-photography-wallpaper-preview.jpg" alt="mountain range" width= 300 height = 300>
+</picture>
+<img src="" alt="">
+<figure>
+  <img src="https://c4.wallpaperflare.com/wallpaper/292/446/516/ultra-wide-photography-wallpaper-preview.jpg" alt="mountain range" width=720 height=200>
+  <figcaption>This is a picture of a mountain range... Wow. How magnificent and inspiring. The image is using img, caption => figcaption and figure wraps them both together.</figcaption>
+</figure>
+<h1>AUDIO AND VIDEO</h1>
+<h2>Here we have the audio format thingies you can use controls as an attribute for the audio 'audio&nbspcontrols&nbspsrc="" '</h2>
+<p>You can also use Loop to loop the sound file <B>'audio controls src="" loop'</B> and autoplay <B>'audio controls src="" loop autoplay'</B><br> You can also use <b>'audio controls src="" type="audio/wav" '</B></p>
+<audio controls src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/birds.mp3"></audio>
+<p>There are several different types of codecs a video file might be encoded in the most common one used is the h.264 codec that can be used with a wide variety of browsers</p>
+<video controls src="https://isorepublic.com/wp-content/uploads/2020/01/iso-republic-lava-lamp-abstract.mp4" width="560" height="400"></video>
+<h2>Embedding stuff epicly</h2>
+<p>So to embed videos and things into html you just kinda go to youtube press the share button then click on embed and just like paste it, we just be epic like that gotta be tthe top 10 biggest brain moments ever</p>
+<iframe width="560" height="560" src="https://www.youtube.com/embed/Oy0nVlkVvMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
