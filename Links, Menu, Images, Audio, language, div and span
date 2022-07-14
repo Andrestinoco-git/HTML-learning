@@ -49,3 +49,22 @@ sizes= "(max-width:480px) 240px,
 <h2>Embedding stuff epicly</h2>
 <p>So to embed videos and things into html you just kinda go to youtube press the share button then click on embed and just like paste it, we just be epic like that gotta be tthe top 10 biggest brain moments ever</p>
 <iframe width="560" height="560" src="https://www.youtube.com/embed/Oy0nVlkVvMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2>Remember to set the language</h2>
+<p>Use html lang="en-us" within the html wrapper <br>
+  remember to use meta charset="UTF-8" within the meta wrapper inside the head element on every page of the site
+</p>
+<h1>DIVS AND SPANS</h1>
+<div>
+  div is a block level element <br> Span is an inline element. <br> this paragraph is wrapped in a div
+  not entirely sure how it works but it is definitely wrapped in a div
+</div>
+<h2>EXAMPLE: the paragraph is wrapped in a div classified "box" CSS targets this div class and customizes it ithink</h2>
+<article lang="en">
+  <h3>This is the headline</h3>
+  <div class="box">
+    <p>The first paragraph.</p>
+    <p>Some text in a second paragraph</p>
+    <p>Third paragraph. <span lang="es" class="bilingual">Esta oracion esta en espanol.</span> Some of this text is in another language</p>
+    <p>Fourth Paragraph</p>
+  </div>
+</article>
